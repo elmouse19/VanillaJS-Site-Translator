@@ -1,0 +1,49 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #46464f;
+	color: #b7b7bf;
+}
+
+header {
+	padding: 0 35px;
+	background-color: #36363f;
+}
+
+header #vjstMenuLangSelector {
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+header #vjstMenuLangSelector > li {
+	text-decoration: underline;
+	color: white;
+	cursor: pointer;
+	float: left;
+	padding: 15px 0;
+}
+
+header #vjstMenuLangSelector > li:hover {
+	color: orangered;
+	background-color: #46464f;
+}
+
+header #vjstMenuLangSelector > li:first-child {
+	/* margin-left: -15px; */
+}
+
+header #vjstMenuLangSelector > li:last-child {
+	/* margin-right: -15px; */
+}
+
+header #vjstMenuLangSelector > li {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+main {
+	padding: 30px 35px 0;
+	background-color: #46464f;
+}
